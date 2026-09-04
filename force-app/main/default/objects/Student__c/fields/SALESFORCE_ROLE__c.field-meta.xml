@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SALESFORCE_ROLE__c</fullName>
+    <label>SALESFORCE ROLE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADMIN</fullName>
+                <default>false</default>
+                <label>ADMIN</label>
+            </value>
+            <value>
+                <fullName>DEVELOPER</fullName>
+                <default>false</default>
+                <label>DEVELOPER</label>
+            </value>
+            <value>
+                <fullName>QUALITY ANALYST</fullName>
+                <default>false</default>
+                <label>QUALITY ANALYST</label>
+            </value>
+            <value>
+                <fullName>BUSINESS ANALYST</fullName>
+                <default>false</default>
+                <label>BUSINESS ANALYST</label>
+            </value>
+            <value>
+                <fullName>ARCHITECT</fullName>
+                <default>false</default>
+                <label>ARCHITECT</label>
+            </value>
+            <value>
+                <fullName>PROJECT MANGER</fullName>
+                <default>false</default>
+                <label>PROJECT MANGER</label>
+            </value>
+            <value>
+                <fullName>ASSOCIATE</fullName>
+                <default>false</default>
+                <label>ASSOCIATE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

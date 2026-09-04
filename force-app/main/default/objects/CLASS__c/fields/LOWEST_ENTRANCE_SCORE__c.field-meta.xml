@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LOWEST_ENTRANCE_SCORE__c</fullName>
+    <label>LOWEST ENTRANCE SCORE</label>
+    <summarizedField>Student__c.ENTRANCE_SCORE__c</summarizedField>
+    <summaryForeignKey>Student__c.CLASS__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

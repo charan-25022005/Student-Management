@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRVENT_NEGATIVE_OR_ZERO_AGE</fullName>
+    <active>true</active>
+    <description>THE AGE SHOULD BE GREATHER THAN ZERO</description>
+    <errorConditionFormula>AGE__c &lt;=0</errorConditionFormula>
+    <errorDisplayField>AGE__c</errorDisplayField>
+    <errorMessage>THE AGE SHOULD BE GREATHER THAN ZERO</errorMessage>
+</ValidationRule>

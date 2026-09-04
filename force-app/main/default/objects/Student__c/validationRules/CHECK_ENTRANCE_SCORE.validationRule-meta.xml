@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHECK_ENTRANCE_SCORE</fullName>
+    <active>true</active>
+    <description>THE ENTRANCE SCORE SHOULD NOT BE BLANK</description>
+    <errorConditionFormula>AND(
+    $RecordType.Name = &quot;Fresher&quot;,
+    ISBLANK(ENTRANCE_SCORE__c)
+)</errorConditionFormula>
+    <errorDisplayField>ENTRANCE_SCORE__c</errorDisplayField>
+    <errorMessage>THE ENTRANCE SCORE SHOULD NOT BE BLANK</errorMessage>
+</ValidationRule>

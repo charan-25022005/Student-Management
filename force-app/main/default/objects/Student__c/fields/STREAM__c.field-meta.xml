@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>STREAM__c</fullName>
+    <label>STREAM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ARTS</fullName>
+                <default>false</default>
+                <label>ARTS</label>
+            </value>
+            <value>
+                <fullName>COMMERCE</fullName>
+                <default>false</default>
+                <label>COMMERCE</label>
+            </value>
+            <value>
+                <fullName>SCIENCE</fullName>
+                <default>false</default>
+                <label>SCIENCE</label>
+            </value>
+            <value>
+                <fullName>MANAGEMENT</fullName>
+                <default>false</default>
+                <label>MANAGEMENT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
