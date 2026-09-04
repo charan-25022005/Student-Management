@@ -1,6 +1,7 @@
-public class StudentController {
-    
-    public static String getMessage() {
-        return 'Student Management';
+public with sharing class StudentController {
+
+    public static String teamMemberTest() {
+        return 'Updated by Vijayendhar';
     }
+
 }
